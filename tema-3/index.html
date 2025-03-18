@@ -4,10 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="product-container"></div>
-    <script src="scripts.js"></script>
+
+<!-- Logo -->
+
+
+<div class="logo-container">
+    <a href="#">
+        <img src="images/logo.png" alt="Logo"></img>
+    </a>
+</div>
+
+<!-- Nav-bar carousel -->
+
+
+<div class="carousel-container">
+    <div class="carousel">
+        <div class="tab">
+            <a href="">
+                <img src="images/Stol.png" alt="Møbler">
+            <p>Møbler</p>
+            </a>
+        </div>
+        <div class="tab">
+            <a href="">
+            <img src="images/Krus%20og%20tallerken.png" alt="Keramik">
+            <p>Keramik</p>
+            </a>
+        </div>
+        <div class="tab">
+            <a href="">
+            <img src="images/Køkken.png" alt="Køkken">
+            <p>Køkken</p>
+            </a>
+        </div>
+        <div class="tab">
+            <a href="">
+                <img src="images/Bad.png" alt="Badeværelse">
+                <p>Badeværelse</p>
+            </a>
+        </div>
+        <div class="tab">
+            <a href="">
+            <img src="images/Planter.png" alt="Planter">
+            <p>Planter</p>
+            </a>
+        </div>
+        <div class="tab">
+            <a href="">
+            <img src="images/Puder.png" alt="Tekstil">
+            <p>Tekstil</p>
+            </a>
+        </div>
+        <div class="tab">
+            <a href="">
+            <img src="images/Lampe.png" alt="Belysning">
+            <p>Belysning</p>
+            </a>
+        </div>
+        <div class="tab">
+            <a href="">
+                <img src="images/Kuglepen.png" alt="Kontor">
+                <p>Kontor</p>
+            </a>
+        </div>
+
+    </div>
+</div>
+
+<!-- Hero carousel (bootstrap) -->
+
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div id="hero-carousel" class="carousel-inner">
+        <div class="carousel-item">
+            <img class="d-block w-100" src="images/b1.jpg" alt="Stue interiør">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100 h-100" src="images/b2.png" alt="Stue interiør">
+        </div>
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="images/b3.png" alt="Påske">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<!-- Produkter genereret af JS -->
+<div id="product-container"></div>
+
+
+<!-- Footer -->
+
+<footer>
+    <div class="footer-tabs">
+        <a href="#"><img src="images/Forstørrelsesglas.png" alt="Søg"></a>
+        <a href="#"><img src="images/User.png" alt="Profil"></a>
+        <a href="#"><img src="images/Hjerte.png" alt="Favorit"></a>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="scripts.js"></script>
 </body>
 </html>
