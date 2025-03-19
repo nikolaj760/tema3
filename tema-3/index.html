@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <title>Lys og Ler</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/Logo.png"/>
 </head>
 <body>
 
@@ -13,9 +14,28 @@
 
 
 <div class="logo-container">
-    <a href="#">
-        <img src="images/logo.png" alt="Logo"></img>
+    <a href="index.html">
+        <img src="images/Logo.png" alt="Logo"></img>
     </a>
+</div>
+
+
+<!-- Baggrund -->
+
+<div class="baggrund1">
+    <img src="images/bg1.png" alt="">
+</div>
+
+
+<!-- Pop-up -->
+
+<div class="popup-container">
+    <img id="popupBtn" src="images/!.png" alt="Åbn billede">
+</div>
+
+<div id="popupImg" style="display: none;">
+    <span id="closeBtn">&times;</span>
+    <img src="images/popup.png" alt="" />
 </div>
 
 <!-- Nav-bar carousel -->
@@ -100,8 +120,15 @@
     </button>
 </div>
 
+
+<div class="h1-container">
+    <h1>Nyheder</h1>
+</div>
+
+
 <!-- Produkter genereret af JS -->
 <div id="product-container"></div>
+
 
 
 <!-- Footer -->
@@ -111,8 +138,73 @@
         <a href="#"><img src="images/Forstørrelsesglas.png" alt="Søg"></a>
         <a href="#"><img src="images/User.png" alt="Profil"></a>
         <a href="#"><img src="images/Hjerte.png" alt="Favorit"></a>
+        <a href="#"><img src="images/Kurv.png" alt="Kurv"></a>
     </div>
 </footer>
+
+
+<div class="baggrund2">
+    <img src="images/bg1.png" alt="">
+</div>
+
+
+<div class="footer-info">
+    <div class="info1">
+        <h2>Kontakt:</h2>
+        <p>Adresse:
+            <br>
+            Lys & Ler
+            <br>
+            Interiørvej 88
+            4600 Køge
+            Danmark
+            <br>
+            Telefon:
+            <br>
+            12 34 56 78
+            <br>
+            Mail:
+            <br>
+            Lys&Ler@fakemail.dk
+            <br>
+
+            CVR: 23232377
+        </p>
+    </div>
+    <div class="info2">
+        <h2>Åbningstider:</h2>
+        <p>Mandag - Fredag:
+            10 - 18
+            <br>
+            Lørdag:
+            9:30 - 15
+            <br>
+            Søndag:
+            Lukket
+            <br>
+
+            Tilmeld dig vores nyhedsbrev:</p>
+        <a href="mailto:LysogLer@fakemail.dk"><button>Mail &#8594;</button></a>
+        <img src="images/Betalingsikoner.png" alt="">
+        <img src="images/trustpilot-stars-seeklogo.png" alt="">
+    </div>
+    <div class="info3">
+        <h2>Kundeservice:</h2>
+        <p>Fragt og levering
+            <br>
+            Retur
+            <br>
+            Datapolitik
+            <br>
+            Cookiepolitik
+            <br>
+            Servicepolitik
+            <br>
+            Juridisk politik
+            <br>
+            Om Lys & Ler</p>
+    </div>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 <script src="scripts.js"></script>
