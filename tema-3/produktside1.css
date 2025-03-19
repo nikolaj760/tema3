@@ -257,6 +257,12 @@ footer{
 
 }
 
+.info3 img{
+    width: 20px;
+    height: auto;
+}
+
+
 .info2 button:hover{
     background-color: #d7c4aa;
     transition: 0.3s ease;

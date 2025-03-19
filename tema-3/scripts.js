@@ -1,6 +1,9 @@
 const products = [
     { name: "Allez stol", price: "999 kr", image: "images/produkt-stol.jpg.webp", link: "produktside1.html" },
-    { name: "Laurbærfigen", price: "499 kr", image: "images/produkt-plante.png", link: "produktside2.html" }
+    { name: "Laurbærfigen", price: "499 kr", image: "images/produkt-plante.png", link: "produktside2.html" },
+    { name: "Reol", price: "1600 kr", image: "images/reol.jpg.avif", link: "produktside3.html" },
+    { name: "Skærebræt", price: "120 kr", image: "images/Skærebræt.png", link: "produktside4.html" },
+
 ];
 
 const container = document.getElementById("product-container");
