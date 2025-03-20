@@ -1,12 +1,18 @@
+//Data om produkter sat som variabler
+
 const products = [
     { name: "Allez stol", price: "999 kr", image: "images/produkt-stol.jpg.webp", link: "produktside1.html" },
     { name: "Laurbærfigen", price: "499 kr", image: "images/produkt-plante.png", link: "produktside2.html" },
     { name: "Reol", price: "1600 kr", image: "images/reol.jpg.avif", link: "produktside3.html" },
     { name: "Skærebræt", price: "120 kr", image: "images/Skærebræt.png", link: "produktside4.html" },
 
+
 ];
 
+//Find div i html som det skal genereres i
 const container = document.getElementById("product-container");
+
+//Laver en funktion der tilføjer html med class "kort" der har designet.
 
 function displayProducts() {
     container.innerHTML = "";
@@ -27,12 +33,17 @@ function displayProducts() {
     });
 }
 
+//Kalder funktionen
 displayProducts();
 
+
+//Funktion der kalder en alert ved tryk på AR-knap
 function showMessage(){
     alert("AR-funktion er under udvikling og endnu ikke klar!");
 }
 
+
+//Funktion til "antal-knap"
 function increaseQuantity() {
     document.getElementById("quantity").value++;
 }
@@ -43,6 +54,9 @@ function decreaseQuantity() {
         quantityInput.value--;
     }
 }
+
+
+//Funktion til popup
 
 let popupBtn = document.getElementById("popupBtn");
 let billede = document.getElementById("popupImg");

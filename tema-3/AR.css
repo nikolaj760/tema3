@@ -65,7 +65,7 @@ body{
 .produkt-wrapper video {
     display: block;
     margin: auto;
-    width: 80vw;
+    width: 70vw;
     height: 85vh;
     object-fit: cover;
     border-radius: 30px;
